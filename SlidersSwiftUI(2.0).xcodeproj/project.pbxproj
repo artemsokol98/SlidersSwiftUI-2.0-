@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		717875E5266D7E2D00A714BA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717875E4266D7E2D00A714BA /* CustomTextField.swift */; };
+		717875E8266D7EB700A714BA /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717875E7266D7EB700A714BA /* ColorSlider.swift */; };
+		717875EB266D804F00A714BA /* LabelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717875EA266D804F00A714BA /* LabelText.swift */; };
 		71FE0809266BE3560026330A /* SlidersSwiftUI_2_0_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FE0808266BE3560026330A /* SlidersSwiftUI_2_0_App.swift */; };
 		71FE080B266BE3560026330A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FE080A266BE3560026330A /* ContentView.swift */; };
 		71FE080D266BE3590026330A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FE080C266BE3590026330A /* Assets.xcassets */; };
 		71FE0810266BE3590026330A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FE080F266BE3590026330A /* Preview Assets.xcassets */; };
+		71FE081A266CD3A30026330A /* ColoredRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FE0819266CD3A30026330A /* ColoredRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		717875E4266D7E2D00A714BA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		717875E7266D7EB700A714BA /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		717875EA266D804F00A714BA /* LabelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelText.swift; sourceTree = "<group>"; };
 		71FE0805266BE3560026330A /* SlidersSwiftUI(2.0).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SlidersSwiftUI(2.0).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FE0808266BE3560026330A /* SlidersSwiftUI_2_0_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersSwiftUI_2_0_App.swift; sourceTree = "<group>"; };
 		71FE080A266BE3560026330A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71FE080C266BE3590026330A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FE080F266BE3590026330A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71FE0811266BE3590026330A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FE0819266CD3A30026330A /* ColoredRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				71FE0808266BE3560026330A /* SlidersSwiftUI_2_0_App.swift */,
 				71FE080A266BE3560026330A /* ContentView.swift */,
+				717875EA266D804F00A714BA /* LabelText.swift */,
+				717875E7266D7EB700A714BA /* ColorSlider.swift */,
+				717875E4266D7E2D00A714BA /* CustomTextField.swift */,
+				71FE0819266CD3A30026330A /* ColoredRectangle.swift */,
 				71FE080C266BE3590026330A /* Assets.xcassets */,
 				71FE0811266BE3590026330A /* Info.plist */,
 				71FE080E266BE3590026330A /* Preview Content */,
@@ -138,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717875E5266D7E2D00A714BA /* CustomTextField.swift in Sources */,
+				717875EB266D804F00A714BA /* LabelText.swift in Sources */,
+				717875E8266D7EB700A714BA /* ColorSlider.swift in Sources */,
+				71FE081A266CD3A30026330A /* ColoredRectangle.swift in Sources */,
 				71FE080B266BE3560026330A /* ContentView.swift in Sources */,
 				71FE0809266BE3560026330A /* SlidersSwiftUI_2_0_App.swift in Sources */,
 			);
